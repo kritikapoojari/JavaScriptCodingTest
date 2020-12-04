@@ -4,8 +4,21 @@
 3. Detect non numeric input and throw an error with message "Invalid Input"
 */
 
-const addition = (...numbers) => {
-  // all your code
-};
+const addition = (number) => {
+    try {
+        if (addition !== " ") {
+            let result = 0;
+            for (let i = 1; i <= number; i++) {
+                result = result + i;
+            }
+            return result;
+        }
+    } catch (err) {
+        throw new err("Invalid Input");
+    }
 
-module.exports = addition;
+    // } else {}
+};
+console.log("Addition is:", addition(2));
+
+//module.exports = addition;
