@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <hr/>
 <hr/>
 <div style="width:80%; margin:auto">
@@ -46,3 +47,6 @@ npm run submit
 ```
 
 8. Candidate can submit the solution by submitting the repository using the [link](https://forms.gle/jJhsRHz18e57VbdT8). Note no commits should be pushed to the repository once the solution is submitted 
+=======
+# JavascriptCodingTest
+>>>>>>> bfff56002cdd9cb649b00e8ce924f8f6311640db
